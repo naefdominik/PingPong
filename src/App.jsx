@@ -75,7 +75,7 @@ export default function App() {
               const winnerColor = winner === domi.label ? domi.color : winner === gaetan.label ? gaetan.color : '#94a3b8'
               return (
                 <tr key={date}>
-                  <td>{date}</td>
+                  <td className="col-date">{date}</td>
                   <td className="col-score" style={{ color: domi.color }}>{d}</td>
                   <td className="col-vs">:</td>
                   <td className="col-score" style={{ color: gaetan.color }}>{g}</td>

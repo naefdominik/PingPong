@@ -83,6 +83,7 @@
 .match-table tbody tr {
   border-bottom: 1px dashed #0f172a;
 }
+.match-table .col-date  { color: #64748b; }
 .match-table .col-score  { font-weight: 700; }
 .match-table .col-vs     { color: #475569; }
 .match-table .col-winner { font-weight: 600; }
