@@ -52,8 +52,8 @@ export default function App() {
             <YAxis allowDecimals={false} {...chart.axis} />
             <Tooltip {...chart.tooltip} />
             <Legend {...chart.legend} />
-            <Line type="monotone" dataKey={domi.label}   stroke={domi.color}   strokeWidth={2} dot={{ r: 5 }} />
-            <Line type="monotone" dataKey={gaetan.label} stroke={gaetan.color} strokeWidth={2} dot={{ r: 5 }} />
+            <Line type="monotone" dataKey={domi.label}   stroke={domi.color}   strokeWidth={2} dot={{ r: 1 }} />
+            <Line type="monotone" dataKey={gaetan.label} stroke={gaetan.color} strokeWidth={2} dot={{ r: 1 }} />
           </LineChart>
         </ResponsiveContainer>
       </Card>

@@ -2,7 +2,7 @@ import { results } from './results.js'
 
 export const PLAYERS = {
   domi:   { label: 'Dominik', color: '#38bdf8' },
-  gaetan: { label: 'Gaëtan',  color: '#fb923c' },
+  gaetan: { label: 'Gaëtan',  color: '#e63946' },
 }
 
 export function getOverall() {
