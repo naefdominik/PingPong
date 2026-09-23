@@ -29,4 +29,5 @@ export const results = [
   { date: '03.09.2026', domi: 1, gaetan: 3 },
   { date: '15.09.2026', domi: 1, gaetan: 1 },
   { date: '16.09.2026', domi: 1, gaetan: 2 },
+  { date: '23.09.2026', domi: 0, gaetan: 2 },
 ]
